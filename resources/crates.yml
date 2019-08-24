@@ -43,6 +43,14 @@ crates:
         id: 366
         meta: 0
         amount: 16
+      - name: "G Pick"
+        id: 276
+        meta: 0
+        amount: 1
+        enchantments:
+          protection:
+            level: 3
+      - lore: "ooof"
     block: "173:0"
   uncommon:
     drops:

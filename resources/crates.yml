@@ -43,16 +43,34 @@ crates:
         meta: 0
         amount: 1
         enchantments:
-          protection:
-            level: 3
-        lore: "OP Sword\nFire Blade"
+          sharpness:
+            level: 5
+        lore: "OP Sword\nSharp Edge"
       - id: 366
         meta: 0
         amount: 16
+      - id: 57
+        meta: 0
+        amount: 10
+      - id: 144
+        meta: 0
+        amount: 3
+      - id: 41
+        meta: 0
+        amount: 5
+      - id: 42
+        meta: 0
+        amount: 5
+      - id: 22
+        meta: 0
+        amount: 7
+      - id: 133
+        meta: 0
+        amount: 6
     block: "173:0"
     broadcast:
       enable: true
-      command: "say \"%PLAYER%\" is opening Common Crate at /crates"
+      command: "bc \"%PLAYER%\" is opening Common Crate at /warp crates"
   uncommon:
     drops:
       - name: "Money Drop"
